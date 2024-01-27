@@ -1,0 +1,58 @@
+.newGroup{
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 200px;
+    width: 450px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    
+    
+}
+.newGroup p{
+    font: bolder;
+    font-size: 26px;
+    margin-top: 1vh;
+}
+.newGroup label{
+    font-size: 20px;
+    font: bold
+}
+.newGroup input{
+    width: 18vw;
+    height: 4vh;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    padding-left: 10px;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+.chooseColour{
+    display: flex;
+}
+.colours{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    margin-left: 1.5vw;
+    margin-bottom: 2vh;
+}
+.colours input{
+    height: 50px;
+    width: 50px;
+    
+    
+}
+.createButton{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    height: 4vh;
+    width: 7vw;
+    border-radius: 12px;
+    margin-left: 23vw;
+    margin-top: 1vh;
+}
+.hidden { display:none; }

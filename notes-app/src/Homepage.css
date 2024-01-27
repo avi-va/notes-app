@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.Main-wrapper{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;/*Without this the homepage doesn't fill the rest area in the App.js*/
+}
+.Main{
+    background-color: #F7ECDC;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height:94%;
+
+}
+.Main-img{
+    width:35%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.main-text{
+    margin-top:10px;
+}
+.Main h1, p{
+    text-align: center;
+}
+.bottom-text{
+    background-color: #F7ECDC;
+    height: 6%;
+}

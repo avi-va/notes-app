@@ -1,0 +1,22 @@
+.Circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: #B38BFA;
+    margin-right: 1vw;
+}
+
+.Group {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    padding:10px 15px;
+    margin-left:10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.Group:hover{
+    background-color: #F7ECDC;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-style: normal;
+    height: 90vh; 
+}
+
+#create{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 1em;
+    width: 13vw;
+    height: 5vh;
+    border-radius: 30px;
+}
+.Groups{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+.logo{
+    font-size: 2em;
+}
